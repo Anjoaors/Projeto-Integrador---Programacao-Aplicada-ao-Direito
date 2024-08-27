@@ -1,0 +1,56 @@
+Python é uma linguagem de propósito geral conhecida por sua sintaxe simples e legibilidade, ideal para ciência de dados, automação e desenvolvimento web. É executada em um interpretador e usa tipagem dinâmica.
+
+JavaScript foi criado para adicionar interatividade às páginas web e é executado principalmente em navegadores, mas também pode ser usado no servidor com Node.js. Tem tipagem dinâmica e sintaxe semelhante a C e Java.
+
+Java é projetado para ser portável entre diferentes plataformas usando a JVM. É uma linguagem de tipagem estática, com sintaxe baseada em C, e o código é compilado em bytecode para execução na JVM. É amplamente usado em aplicações empresariais e Android.
+
+
+# CALCULO DE ADIÇÃO EM PYTHON # 
+# Solicita os dois números do usuário
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+# Calcula a soma dos números
+resultado = num1 + num2
+
+# Exibe o resultado
+print("Resultado da adição:", resultado)
+
+# CALCULO DE ADIÇÃO EM JAVASCRIPT #
+// Solicita os dois números do usuário
+var num1 = parseFloat(prompt("Digite o primeiro número:"));
+var num2 = parseFloat(prompt("Digite o segundo número:"));
+
+// Calcula a soma dos números
+var resultado = num1 + num2;
+
+// Exibe o resultado
+alert("Resultado da adição: " + resultado);
+
+# CALCULANDO EM JAVA #
+
+Copiar código
+import java.util.Scanner;
+
+public class CalculadoraAdicao {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicita ao usuário o primeiro número
+        System.out.print("Digite o primeiro número: ");
+        double num1 = scanner.nextDouble();
+        
+        // Solicita ao usuário o segundo número
+        System.out.print("Digite o segundo número: ");
+        double num2 = scanner.nextDouble();
+        
+        // Calcula a soma
+        double resultado = num1 + num2;
+        
+        // Exibe o resultado
+        System.out.println("Resultado da adição: " + resultado);
+        
+        // Fecha o scanner
+        scanner.close();
+    }
