@@ -1,0 +1,53 @@
+#Exercício 1
+def Imprimir_Informacoes(nome, idade, cidade):
+    print(f"Nome: {nome}", end=" ; ")
+    print(f"Idade: {idade}", end=" ; ")
+    print(f"Cidade: {cidade}!", end="")
+
+# Exemplo de uso
+if __name__ == "__main__":
+    nome = "Alice"
+    idade = 25
+    cidade = "São Paulo"
+    Imprimir_Informacoes(nome, idade, cidade)
+
+#Exercício 1 (2)
+def calculadora():
+ num1 = int(input("escolha um número qualquer: "))
+ num2 = int(input("escolha outro número qualquer: "))
+ calculo = input("escolha uma operação entre: + (adição), - (subtração), * (multiplicação) ou / (divisão)")
+ if calculo == '+':
+     resultado = num1 + num2
+ if calculo == '-':
+     resultado = num1 - num2
+ if calculo == '*':
+     resultado = num1 * num2
+ if calculo == '/':
+     resultado = num1 / num2
+
+ print("o resultado é: ", resultado)
+
+#Exercício 3
+def listar_compras():
+    entrada = input("Digite os itens da lista de compras, separados por vírgula: ")
+    lista_compras = [item.strip() for item in entrada.split(',')]
+    print("\nItens da lista de compras:")
+    for item in lista_compras:
+        print(item)
+        
+#Ecercício 4
+def transformardor_de_temperatura():
+ celsius = float(input("Diga a temperatura em graus Celsius: "))
+ farenheit = celsius * (9/5) + 32
+ print("Em farenheit, essa é a temperatura equivalente: ", farenheit)
+
+#Exercício 5
+print("Digite um nome (digite 'sair' para terminar) :")
+nomes = []
+while True:
+    entrada = input()
+    if entrada.lower() == 'sair':
+        break
+else:
+    nomes.append(int(entrada))
+print("Nomes coletados:", nomes)
