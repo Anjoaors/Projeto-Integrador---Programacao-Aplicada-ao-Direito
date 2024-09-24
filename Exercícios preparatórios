@@ -40,6 +40,6 @@
        2. Concatenação de Strings: Em muitas linguagens de programação, o operador + também é utilizado para unir ou concatenar cadeias de caracteres, ou strings. Por exemplo, ao realizar “Olá, ” + “mundo!”, o resultado é a string combinada "Olá, mundo!". Essa operação permite que os programadores criem textos dinâmicos e mensagens a partir de diferentes variáveis e entradas do usuário. A concatenação de strings é essencial para a manipulação de texto, construção de interfaces de usuário e geração de relatórios, entre outras aplicações.
     d) Uma função em Python é um bloco de código (um pedaço de programa) que realiza uma tarefa específica e pode ser reutilizado em diferentes partes de um programa. As funções permitem que você agrupe operações relacionadas, tornando o código mais modular e fácil de entender.
     e) Para definir uma função em Python, você utiliza a palavra-chave def, seguida pelo nome da função e parênteses que podem incluir parâmetros. Em seguida, você adiciona dois pontos (:) e, dentro de um bloco indentado, coloca o código que a função deve executar.
-    f) Em Python, as principais estruturas de tomada de decisão são: if; if-else e if-elif-else. (ISSO CAI NA PROVA)
+    f) Em Python, as principais estruturas de tomada de decisão são: if; if-else e if-elif-else. (ISSO CAI NA PROVA, não assim, mas cai)
        (Se ligar nos exemplos  pra fazer)
       
